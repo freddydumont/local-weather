@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <main>
+  <div class="container center-align white-text">
+    <h1>Local Weather App</h1>
+    <br />
+    <h3 id="city">Loading...</h3>
+    <h4><span id="temp"></span><span id="tempUnit"></span></h4>
+    <br />
+    <button class="btn" id="unitBtn" type="button" onclick="switchUnit()">Change unit</button>
+    <br /><br />
+    <h4 id="description"></h4>
+    <h1><i id="icon"></i></h1>
+  </div>
+</main>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
